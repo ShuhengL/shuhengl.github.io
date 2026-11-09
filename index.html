@@ -1,163 +1,156 @@
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen"
-        href="/assets/css/style.css?v=b64787e81258f207ab141457d1ce4383d90df2cc">
-
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-    <title>Shuheng Liu</title>
-    <meta name="generator" content="Jekyll v3.9.0">
-    <meta property="og:title" content="Shuheng Liu">
-    <meta property="og:locale" content="en_US">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shuheng Liu | NLP Research</title>
+    <meta name="description" content="Shuheng Liu is a Computer Science PhD student at Georgia Tech researching human-centered evaluation of multilingual and low-resource language technologies.">
     <link rel="canonical" href="https://shuhengl.github.io/">
-    <meta property="og:url" content="https://shuhengl.github.io/">
-    <meta property="og:site_name" content="shuhengl.github.io">
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:title" content="Shuheng Liu">
-    <script type="application/ld+json">
-{"url":"https://shuhengl.github.io/","@type":"WebSite","headline":"Shuheng Liu","name":"shuhengl.github.io","@context":"https://schema.org"}</script>
-    <!-- End Jekyll SEO tag -->
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #20272a;
+            --muted: #4b5a5f;
+            --paper: #fcfbf7;
+            --accent: #155c55;
+            --rule: #d9dfda;
+        }
 
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+        * { box-sizing: border-box; }
 
-<body>
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 1rem/1.65 system-ui, sans-serif;
+            border-top: 5px solid var(--accent);
+        }
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-            <h1 id="project_title">Shuheng Liu</h1>
-            <!-- <h2 id="project_tagline"></h2> -->
-        </header>
-    </div>
+        .page {
+            width: min(100% - 2.5rem, 49rem);
+            margin-inline: auto;
+        }
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="intro" class="inner">
-            <h1>About Me</h1>
+        a {
+            color: var(--accent);
+            text-underline-offset: .2em;
+        }
 
-            <p>
-                I am a fourth-year Computer Science PhD student at the <a href="https://ic.gatech.edu/">School of Interactive
-                    Computing</a> in <a href="https://www.gatech.edu/">Georgia Institute of Technology</a> working with
-                    <a href="https://mikeb.inta.gatech.edu">Dr. Michael L. Best</a> at the <a href="https://tid.gatech.edu">T+ID lab</a>.
-            </p>
-            <p>
-                I received by B.S. in Computer Science and B.A. in Linguistics from <a
-                    href="https://www.washington.edu/">University of Washington</a>. During my time at UW, I
-                was fortunate to work with Dr. <a href="https://www.cs.washington.edu/people/faculty/lsz">
-                    Luke Zettlemoyer</a> and Dr. <a href="https://blvns.github.io/">Terra Blevins</a>.
-            </p>
+        a:hover { text-decoration-thickness: .13em; }
+        a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
-        </section>
+        header { padding-block: 3.5rem 2rem; }
+        h1, h2 { font-family: Georgia, serif; line-height: 1.15; }
+        h1 { margin: 0; font-size: clamp(2.65rem, 8vw, 4.25rem); }
+        h2 { margin: 0 0 .85rem; font-size: 1.7rem; }
+        p { margin: 0 0 .85rem; }
+        .affiliation { margin-top: .5rem; color: var(--muted); }
+        .lead { max-width: 37rem; margin-block: 1.15rem; font-size: 1.2rem; }
+        .links { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; }
 
-        <section id="research_interest" class="inner">
-            <h1>Research Interest</h1>
+        section, footer {
+            padding-block: 1.65rem;
+            border-top: 1px solid var(--rule);
+        }
 
-            <p>
-                My research interests lie in the intersection of Natural Language Processing (NLP)
-                and Human Computer Interaction (HCI). Specifically, I have worked on evaluating the
-                generalisation of NLP across time, building resources for various languages, and applying
-                NLP techniques for social media analysis.
-            </p>
-            <p>
-                My current research focuses on the development for low-resource language technology in
-                the era of large language models (LLMs). I am particularly interested in understanding
-                such development from a human-centered perspective, investigating the development for
-                low-resource languages that are commonly ignored by the NLP community and how we can advance
-                such technology that is beneficial for the speakers of these languages.
-            </p>
-        </section>
-
-        <section id="pub" class="inner">
-            <h1>Publications</h1>
-            <ul>
-                <div class="workshop_proposal">
-                    <a href="https://dl.acm.org/doi/full/10.1145/3715335.3737684">
-                        Community-Driven Data Practices for Advancing Ethical and Equitable AI in Low-Resource Language Contexts
-                    </a> <br>
-                    Charles Nimo, <strong>Shuheng Liu</strong>, Amy Z. Chen, Ramaravind Kommiya Mothilal, Michael L. Best <br>
-                    In <em>Compass '25: Proceedings of the ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies</em><br>
-                    COMPASS 2025
-                </div>
-            </ul>
-
-            <ul>
-                <div class="paper">
-                    <a href="https://aclanthology.org/2025.naacl-long.396/">
-                        A Survey of NLP Progress in Sino-Tibetan Low-Resource Languages
-                    </a> <br>
-                    <strong>Shuheng Liu</strong>, Michael L. Best <br>
-                    In <em>Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</em><br>
-                    NAACL 2025
-                </div>
-            </ul>
-
-            <ul>
-                <div class="paper">
-                    <a href="https://aclanthology.org/2024.naacl-long.243/">
-                        Universal NER: A Gold-Standard Multilingual Named Entity Recognition Benchmark
-                    </a>  <br>
-                    Stephen Mayhew, Terra Blevins, <strong>Shuheng Liu</strong>, Marek Šuppa, Hila Gonen, Joseph Marvin Imperial, Börje F. Karlsson, Peiqin Lin, Nikola Ljubešić, LJ Miranda, Barbara Plank, Arij Riabi, Yuval Pinter <br>
-                    In <em>Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</em><br>
-                    NAACL 2024
-                </div>
-            </ul>
-
-            <ul>
-                <div class="paper">
-                    <a href="https://aclanthology.org/2023.acl-long.459/">Do CoNLL-2003 Named Entity Taggers Still Work Well in 2023?</a> <br>
-                    <strong>Shuheng Liu</strong>, Alan Ritter <br>
-                    In <em>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em><br>
-                    ACL 2023 [<strong><a href="https://2023.aclweb.org/program/best_papers/">Reproduction Award</a></strong>]
-                </div>
-            </ul>
-        </section>
-
-        <!-- <section id="other_project" class="inner">
-            <h1>Other Projects</h1>
-
-            <ul>
-                <div class="demo">
-                    <a href="http://nlprx.cc.gatech.edu:1145">BETTER Demo</a>
-                    <br>
-                    Demo to search for events given desired attributes for the IARPA BETTER project.
-                </div>
-            </ul>
-            
-        </section> -->
-
-        <section id="contact_info" class="inner">
-            <h1 id="my-contact-info">Contact Me</h1>
-
-            <ul>
-                <li id="email">
-                    <a href="mailto:sliu775@gatech.edu">sliu775@gatech.edu</a>
-                </li>
-                <li id="office">
-                    Office: <a href="https://codatechsquare.com/">CODA</a> E1428
-                </li>
-            </ul>
-        </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <!-- <div id="footer_wrap" class="outer">
-        <footer class="inner">
-
-            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-        </footer>
-    </div> -->
-
-
-</body>
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
+        section > :last-child, footer > :last-child { margin-bottom: 0; }
+        .publications { margin: 0; padding: 0; list-style: none; }
+        .publications li { padding-block: .8rem; }
+        .publications li + li { border-top: 1px solid var(--rule); }
+        .publications li:last-child { padding-bottom: 0; }
+        .venue { display: block; color: var(--muted); font-size: .875rem; }
+        .paper-title { display: inline-block; font-weight: 650; }
+        .authors { display: block; font-size: .925rem; }
+        .note { color: var(--muted); font-size: .925rem; }
+    </style>
 </head>
+<body>
+    <div class="page">
+        <header id="intro">
+            <h1>Shuheng Liu</h1>
+            <p class="affiliation">Computer Science PhD student · Georgia Tech</p>
+            <p class="lead">
+                I study how to evaluate multilingual language technologies, especially for low-resource
+                languages, and what we learn by involving the people who build and use them.
+            </p>
+            <nav class="links" aria-label="Quick links">
+                <a href="#research_interest">Research</a>
+                <a href="#pub">Publications</a>
+                <a href="https://aclanthology.org/people/shuheng-liu/">ACL Anthology</a>
+                <a href="mailto:sliu775@gatech.edu">Email</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="research_interest">
+                <h2>Research</h2>
+                <p>
+                    My current work asks when automatic metrics reflect how useful a language technology
+                    is to people. In an ongoing cross-lingual question answering project, I evaluate machine
+                    translations with automatic metrics and model-based question answering. I also built a
+                    web-based study to test whether people can answer comprehension questions using those translations.
+                </p>
+                <p>
+                    My earlier work includes interviews with practitioners developing tools for low-resource
+                    Sino-Tibetan languages, a survey of NLP research on those languages, and experiments on
+                    how well named entity recognition models generalize over time.
+                </p>
+            </section>
+
+            <section id="pub">
+                <h2>Publications</h2>
+                <ul class="publications" role="list">
+                    <li>
+                        <span class="venue">EMNLP 2026</span>
+                        <a class="paper-title" href="https://aclanthology.org/2026.emnlp-main.832/">Behind-the-Scenes Challenges in Sino-Tibetan Low-Resource Language Technology Development</a>
+                        <span class="authors"><strong>Shuheng Liu</strong>, Michael L. Best</span>
+                    </li>
+                    <li>
+                        <span class="venue">EMNLP 2025</span>
+                        <a class="paper-title" href="https://aclanthology.org/2025.emnlp-main.1639/">Africa Health Check: Probing Cultural Bias in Medical LLMs</a>
+                        <span class="authors">Charles Nimo, <strong>Shuheng Liu</strong>, Irfan Essa, Michael L. Best</span>
+                    </li>
+                    <li>
+                        <span class="venue">COMPASS 2025</span>
+                        <a class="paper-title" href="https://dl.acm.org/doi/full/10.1145/3715335.3737684">Community-Driven Data Practices for Advancing Ethical and Equitable AI in Low-Resource Language Contexts</a>
+                        <span class="authors">Charles Nimo, <strong>Shuheng Liu</strong>, Amy Z. Chen, Ramaravind Kommiya Mothilal, Michael L. Best</span>
+                    </li>
+                    <li>
+                        <span class="venue">NAACL 2025</span>
+                        <a class="paper-title" href="https://aclanthology.org/2025.naacl-long.396/">A Survey of NLP Progress in Sino-Tibetan Low-Resource Languages</a>
+                        <span class="authors"><strong>Shuheng Liu</strong>, Michael L. Best</span>
+                    </li>
+                    <li>
+                        <span class="venue">NAACL 2024</span>
+                        <a class="paper-title" href="https://aclanthology.org/2024.naacl-long.243/">Universal NER: A Gold-Standard Multilingual Named Entity Recognition Benchmark</a>
+                        <span class="authors">Stephen Mayhew, Terra Blevins, <strong>Shuheng Liu</strong>, Marek Šuppa, Hila Gonen, Joseph Marvin Imperial, Börje F. Karlsson, Peiqin Lin, Nikola Ljubešić, LJ Miranda, Barbara Plank, Arij Riabi, Yuval Pinter</span>
+                    </li>
+                    <li>
+                        <span class="venue">ACL 2023 · <a href="https://2023.aclweb.org/program/best_papers/">Reproduction Award</a></span>
+                        <a class="paper-title" href="https://aclanthology.org/2023.acl-long.459/">Do CoNLL-2003 Named Entity Taggers Still Work Well in 2023?</a>
+                        <span class="authors"><strong>Shuheng Liu</strong>, Alan Ritter</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2>About</h2>
+                <p>
+                    I am a PhD student in the <a href="https://ic.gatech.edu/">School of Interactive Computing</a>
+                    at Georgia Tech, advised by <a href="https://mikeb.inta.gatech.edu">Michael L. Best</a>
+                    in the <a href="https://tid.gatech.edu">T+ID Lab</a>. I earned a B.S. in Computer Science
+                    and a B.A. in Linguistics at the <a href="https://www.washington.edu/">University of Washington</a>,
+                    where I worked with <a href="https://www.cs.washington.edu/people/faculty/lsz">Luke Zettlemoyer</a>
+                    and <a href="https://blvns.github.io/">Terra Blevins</a>.
+                </p>
+            </section>
+        </main>
+
+        <footer id="contact_info">
+            <h2 id="my-contact-info">Contact</h2>
+            <p><a id="email" href="mailto:sliu775@gatech.edu">sliu775@gatech.edu</a></p>
+            <p class="note" id="office">Office at <a href="https://codatechsquare.com/">CODA</a>, E1428</p>
+        </footer>
+    </div>
+</body>
+</html>
